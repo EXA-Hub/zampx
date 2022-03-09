@@ -1,4 +1,11 @@
 module.exports = {
+  /**
+   *
+   * @param {Number} num
+   * @param {Number} digits
+   * @returns {String}
+   * @author ZAMPX
+   */
   numberFormatter: (num, digits) => {
     const lookup = [
       { value: 1, symbol: "" },
