@@ -3,7 +3,7 @@ module.exports = {
    *
    * @param {Number} num
    * @param {Number} digits
-   * @returns {String}
+   * @returns {String} صيغة الرقم
    * @author ZAMPX
    */
   numberFormatter: (num, digits) => {
