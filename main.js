@@ -5,6 +5,9 @@ module.exports = {
    * @param {Number} digits
    * @returns {String} صيغة الرقم
    * @author ZAMPX
+   * @example zampx.numberFormatter(50000, 1);
+    // 50ألف
+   * 
    */
   numberFormatter: (num, digits) => {
     const lookup = [
